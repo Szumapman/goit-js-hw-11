@@ -7,6 +7,7 @@
     <title>Image search engine</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/image-search.css" />
+    <script type="module" src="./js/image-search.js" defer></script>
   </head>
   <body>
     <load
@@ -19,15 +20,17 @@
       <div class="container">
         <h1 class="hidden">Image search engine</h1>
 
-        <form class="form">
+        <form class="image-search-form">
           <input
             type="text"
-            name="search-images"
+            name="searchTerm"
             placeholder="Search images..."
             required
           />
           <button type="submit">Search</button>
         </form>
+
+        <ul class="gallery"></ul>
 
         <load src="./partials/back-link.html" />
       </div>
