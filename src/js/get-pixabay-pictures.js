@@ -9,6 +9,7 @@ export function getPictures(searchTerm) {
         image_type: 'photo',
         orientation: 'horizontal',
         safesearch: true,
+        per_page: 15,
     });
 
     return fetch(`https://pixabay.com/api/?${searchParams}`)
