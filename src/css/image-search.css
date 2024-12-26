@@ -22,11 +22,11 @@ body {
     box-sizing: border-box;
 }
 
-.form {
+.image-search-form {
     margin-top: 40px;
 }
 
-.form input {
+.image-search-form input {
     box-sizing: border-box;
     width: 272px;
     height: 40px;
@@ -37,17 +37,17 @@ body {
     border-radius: 4px;
 }
 
-.form input:hover {
+.image-search-form input:hover {
     border-color: black;
 }
 
-.form input:focus,
-.form input:active {
+.image-search-form input:focus,
+.image-search-form input:active {
     border: 1px solid var(--medium-blue);
     outline: none;
 }
 
-.form button {
+.image-search-form button {
     width: 91px;
     height: 40px;
     border: none;
@@ -57,4 +57,8 @@ body {
     font: inherit;
     padding: 8px 16px;
     gap: 10px;
+}
+
+.image-search-form button:hover {
+    background: var(--light-medium-blue);
 }
