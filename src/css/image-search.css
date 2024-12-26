@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --medium-gray: #808080;
+    --light-gray: #CFCFCF;
+    --medium-light-gray: #989898;
+    --very-dark-blue: #2E2F42;
+    --medium-blue: #4E75FF;
+    --almost-white: #FAFAFA;
+    --light-medium-blue: #6C8CFF;
+    --button-color-white: #fff;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--very-dark-blue);
+    box-sizing: border-box;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.form input {
+    box-sizing: border-box;
+    width: 272px;
+    height: 40px;
+    margin-right: 8px;
+    padding-inline: 16px;
+    font: inherit;
+    border: 1px solid var(--medium-gray);
+    border-radius: 4px;
+}
+
+.form input:hover {
+    border-color: black;
+}
+
+.form input:focus,
+.form input:active {
+    border: 1px solid var(--medium-blue);
+    outline: none;
+}
+
+.form button {
+    width: 91px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: var(--medium-blue);
+    color: var(--button-color-white);
+    font: inherit;
+    padding: 8px 16px;
+    gap: 10px;
+}
