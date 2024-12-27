@@ -144,6 +144,7 @@ body {
     z-index: 9999;
 }
 
+.gallery.hidden,
 .loader-container.hidden {
     display: none;
 }
